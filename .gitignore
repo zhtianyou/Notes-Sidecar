@@ -1,0 +1,21 @@
+# Xcode build products and local workspace state
+build/
+DerivedData/
+*.xcuserstate
+**/xcuserdata/
+*.xcscmblueprint
+
+# macOS Finder metadata and profiling output
+.DS_Store
+*.profraw
+
+# Local credentials and signing material
+.env
+.env.*
+*.p12
+*.mobileprovision
+*.pem
+*.key
+
+# Swift Package Manager local products
+.build/
